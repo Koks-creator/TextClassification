@@ -80,5 +80,7 @@ if __name__ == '__main__':
              "In my opinion this movie is really bad."]
     print(get_prediction('TextClassification2.h5', 'tokenizer2.pickle', sents))
     print(perf_counter() - start)
+    
+    #res ['Pos', 'Pos', 'Neg', 'Pos', 'Neg', 'Neg', 'Pos', 'Pos', 'Neg']
 
 
